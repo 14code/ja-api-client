@@ -1,0 +1,25 @@
+{
+    "name": "14code/ja-api-client",
+    "description": "Just another PHP API client",
+    "authors": [
+        {
+            "name": "David Hoppe",
+            "email": "dh@14co.de"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "I4code\\JaApi\\Client\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "require": {
+        "nyholm/psr7": "^1.2",
+        "kriswallsmith/buzz": "^1.0",
+        "flow/jsonpath": "^0.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
